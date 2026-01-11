@@ -1,0 +1,36 @@
+{
+  "name": "Sahil-hr-ui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "cd HRMS && next dev",
+    "build": "cd HRMS && next build",
+    "start": "cd HRMS && next start",
+    "lint": "cd HRMS && next lint"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.90.1",
+    "autoprefixer": "^10.4.19",
+    "dayjs": "^1.11.11",
+    "feather-icons": "^4.29.1",
+    "firebase": "^10.8.0",
+    "lucide-react": "^0.292.0",
+    "next": "^14.0.0",
+    "postcss": "^8.4.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.4.3",
+    "workbox-core": "^7.0.0",
+    "workbox-precaching": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "eslint": "^8.39.0",
+    "eslint-config-next": "^14.0.0",
+    "prettier": "^2.8.8",
+    "typescript": "^5.0.0"
+  }
+}
